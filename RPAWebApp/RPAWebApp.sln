@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAWebApp", "RPAWebApp.csproj", "{0B7CB625-744F-4708-9398-C67BB75F6071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpaWebApi", "..\RpaWebApi\RpaWebApi.csproj", "{81C67332-54BA-4C73-8A74-DCEBF19ACFA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B7CB625-744F-4708-9398-C67BB75F6071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7CB625-744F-4708-9398-C67BB75F6071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7CB625-744F-4708-9398-C67BB75F6071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7CB625-744F-4708-9398-C67BB75F6071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C67332-54BA-4C73-8A74-DCEBF19ACFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C67332-54BA-4C73-8A74-DCEBF19ACFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C67332-54BA-4C73-8A74-DCEBF19ACFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C67332-54BA-4C73-8A74-DCEBF19ACFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

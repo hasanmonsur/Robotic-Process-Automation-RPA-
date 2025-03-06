@@ -1,0 +1,26 @@
+﻿@model RPAWebApp.Models.LoginModel
+
+<h2>Login</h2>
+
+<form method="post">
+    <div>
+        <label for="Username">Username</label>
+        <input type="text" id="Username" name="Username" />
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="Password" />
+    </div>
+    <div>
+        <button type="submit">Login</button>
+    </div>
+    @if (ViewContext.ModelState?.ErrorCount > 0)
+    {
+        <div class="error">
+            @foreach (var error in ViewContext.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+    }
+</form>

@@ -1,0 +1,6 @@
+@RpaWebApi_HostAddress = http://localhost:5203
+
+GET {{RpaWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
